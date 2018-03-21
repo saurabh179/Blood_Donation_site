@@ -12,7 +12,7 @@ $row=mysql_fetch_assoc($res);
 if( $num_row == 1 ) {
 	echo 'true';*/
 
-         $conn = new mysqli("dbms.iiitdmj.ac.in","2016135","be5acb71","2016135");
+         $conn = new mysqli("server","username","password","database_name");
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         } 
