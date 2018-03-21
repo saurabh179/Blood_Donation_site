@@ -23,10 +23,10 @@
 session_start();
 
 
-       $servername = "dbms.iiitdmj.ac.in";
-                        $username = "2016135";
-                        $password = "be5acb71";
-                        $dbname = "2016135";
+       $servername = "phpmyadmin";
+                        $username = "username";
+                        $password = "password";
+                        $dbname = "database_name";
 
                         
                         $conn = new mysqli($servername, $username, $password, $dbname);
