@@ -24,7 +24,7 @@
         {
             
             
-            $link = mysqli_connect("dbms.iiitdmj.ac.in","2016135","be5acb71","2016135") or die ("Unable to connect the server.");
+            $link = mysqli_connect("server","username","password","database_name") or die ("Unable to connect the server.");
 
     
             
